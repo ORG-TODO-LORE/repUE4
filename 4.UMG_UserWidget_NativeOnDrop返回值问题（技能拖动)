@@ -1,1 +1,2 @@
-1. 注意返回 true 还是返回 false。
+1. 注意返回 true 还是返回 false。如果返回false会意外丢弃技能。
+2. 当MainUseWidget 不响应 NativeOnDrop 时，尝试使用其内部的其它控件来接收。
