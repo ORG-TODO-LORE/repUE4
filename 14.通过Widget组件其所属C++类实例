@@ -1,0 +1,6 @@
+```
+通过Widget组件的引用 (CreateDefaultSubobject<UWidgetComponent>(TEXT("EnemyWidgetComp"));)
+得到这个Widget组件的所属用户控件C++类的实例
+Cast<UEnemyInfoWidget>(EnemyWidgetComp->GetUserWidgetObject());
+建议在BeginPlay中完成
+```
